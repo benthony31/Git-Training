@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is an awesome Website">
+        <meta name="author" content="Ben">
+        <meta name="keywords" content="Training, Ben, HTML">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben's Website</title>
+
+        <style>
+            #heading {background-color: green;}
+            p {color: darkblue; font-family: sans-serif, monospace;}
+            body {background-color: greenyellow;}
+
+            .red-text {color: red;
+                        font-size: 30px;}
+            .large-image {width: 200px; 
+                        border-color: aqua;
+                        border-width: 10px;
+                        border-style: solid;
+                        border-radius: 50%;}
+            .silver-background {padding: 20px 40px 20px 40px;
+                                background-color: silver;}
+            .border-text {width: 200px; 
+                        border-color: aqua;
+                        border-width: 10px;
+                        border-style: solid;
+                        padding: 20px 40px 20px 40px;
+                        background-color: silver;
+                        margin: 20px 40px 20px 40px;}
+            .table-text {width: 200px; 
+                        border-color: aqua;
+                        border-width: 10px;
+                        border-style: solid;
+                        padding: 20px 40px 20px 40px;
+                        background-color: silver;
+                        margin: 20px 40px 20px 40px;}
+                    
+
+            
+
+        </style>
+
+    </head>
+
+    <body>
+        
+      <!--First part, basic tags-->
+        <h2>Ben's Website</h2>
+      <hr/>
+      <p style="color: Red; background-color:white">You can style you design</p>
+      <p class="border-text">This is my <b><i>Paragraph</i></b></p>
+      <p>This is another <i>Paragraph</i></p>
+      <p>H<sub>2</sub>O</p> 
+      <p class="red-text">10<sup>3</sup></p>
+      <hr/>
+        <!--Links-->
+        <a href="https://www.google.com"><h3>Google homapage</h3></a>
+        <a href="index.html" target="_blank">Index</a>
+        <a href="Mars.jpg" target="_blank">Mars</a>
+
+        <a href="http://www.google.com" target="_blank">
+        <img width="150" height="100" src="https://www.bing.com/th?id=OIP.wT40AAmYcLh1Y4E48FtFjgHaFj&w=288&h=216&c=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2" alt="A really big planet"/>
+        </a>
+        <img class="large-image" src="Mars.jpg">
+        <iframe width="200" height="150" src="https://www.youtube.com/embed/XnhyFBasbT4" title="GIANT Dinosaurs at Dinosaur World! @T-Rex Ranch - Dinosaurs For Kids | Jurassic TV | Dinosaur Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <ul>
+            <li id="heading">Apple</li>
+            <li>Oranges</li>
+            <li><a href=""> Pears </a></li>
+        </ul>
+        <ol class="silver-background" type="I">
+            <li>Apple</li>
+            <li>Oranges 
+                <ol type="i" class="red-text">
+                    <li>Lime</li>
+                    <li>Lemon</li>
+                </ol>
+            <li><a href=""> Pears </a></li>
+        </ol>
+        <!--comments list with description-->
+        <dl>
+            <dt>Apples</dt>
+            <dd>- They are red</dd>
+        </dl>
+
+        <table id="heading" class="table-text">
+            <thead>>
+            <caption>List of Numbers</caption>
+            <tr>
+                <th>Num One</th>
+                <th>Num Two</th>
+                <th>Num Three</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>One</td>
+                <td>Two</td>
+                <td>Three</td>
+            </tr>
+            <tr>
+                <td>Four</td>
+                <td>Five</td>
+                <td>Six</td>
+            </tr>
+        </tbody>
+        </table>
+    <form>
+        <input type="text" value="Enter Username">
+        <input type="password">
+        <input type="date">
+        <input type="email">
+        <input type="file">
+        <input type="range"> <br/>
+
+        <input type="checkbox">
+        <input type="checkbox">
+        <input type="checkbox"> <br/>
+
+        <input name="btn" type="radio">
+        <input name="btn" type="radio">
+        <input name="btn" type="radio">
+
+        
+        <br/>
+        <textarea rows="10" cols="30">
+        Enter Texts
+        </textarea>
+        <input type="submit">
+    </form>
+            <!--Comment on embeding another website inside mine-->
+        <iframe src="http://giraffeacademy.com" frameborder="0" width="500" height="400">Sorry</iframe>
+   </body>
+
+</html>
