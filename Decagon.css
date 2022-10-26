@@ -5,11 +5,14 @@ h1 {
     p {
         text-align: justify;
     }
-
-    .readme {background-color: black;
+        /* This is a comment */
+    .readme {
+            background-color: black;
             color: white;
             font-size: small;
             margin-left: 20px;
+    }
+    .image {background: url(mars.jpg) no-repeat right top fixed;
     }
     .center {text-align: center;
             background-color: blue;
