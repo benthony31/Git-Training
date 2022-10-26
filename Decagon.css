@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: red;
+    }
+    p {
+        text-align: justify;
+    }
+
+    .readme {background-color: black;
+            color: white;
+            font-size: small;
+            margin-left: 20px;
+    }
+    .center {text-align: center;
+            background-color: blue;
+            color: white;
+    }
+   
+    #focus {text-align: end;
+            background-color: aliceblue;
+            color: purple;        
+    }
+    * {text-align: justify;
+        color: brown;
+    }
